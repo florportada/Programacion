@@ -1,0 +1,25 @@
+package maniqui;
+
+public class Tienda {
+	
+	public static void main(String[] args) {
+		String nombre = "Zara";
+		Maniqui.cearManiquis();
+		
+		Boton boton1 = new Boton("Plateado", "Circular", 21);
+		Boton boton2 = new Boton("Azul", "Circular", 25);
+		Boton boton3 = new Boton("Negro", "Cuadrado", 30);
+		Boton boton4 = new Boton("Rojo", "Palo", 10);
+		Boton[] botones= {boton2, boton3, boton4};
+		
+		Pantalon pantalon = new Pantalon("M", 25.99, "Azul", boton1);
+		Camisa camisa = new Camisa("M", 15.69, "Blanco", botones);
+		
+		
+		
+		 
+		
+
+	}
+
+}

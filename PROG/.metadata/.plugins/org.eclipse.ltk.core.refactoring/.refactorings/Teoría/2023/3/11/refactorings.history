@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change method &apos;public carreraF1.Carrera.Carrera(Circuito circuito, Piloto[] parrillaSalida, double distancia)&apos; to &apos;public Carrera(Circuito circuito, Piloto[] parrillaSalida, double distancia)&apos;&#x0A;- Original project: &apos;Teoría&apos;&#x0A;- Original element: &apos;carreraF1.Carrera.Carrera(...)&apos;&#x0A;- Changed parameters:&#x0A;     String[] parrillaSalida" delegate="false" deprecate="true" description="Change method &apos;Carrera&apos;" flags="589830" id="org.eclipse.jdt.ui.change.method.signature" input="/src&lt;carreraF1{Carrera.java[Carrera~Carrera~QCircuito;~\[QString;~D" name="Carrera" parameter1="Circuito circuito 0 Circuito circuito false" parameter2="String[] parrillaSalida 1 Piloto[] parrillaSalida false" parameter3="double distancia 2 double distancia false" stamp="1678096534897" version="1.0"/>
+</session>

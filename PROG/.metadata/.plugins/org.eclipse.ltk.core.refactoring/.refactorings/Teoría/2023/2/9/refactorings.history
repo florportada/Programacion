@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;valores&apos; in &apos;Bucles.Menu.main(...)&apos; to &apos;puntos&apos;&#x0A;- Original project: &apos;Teoría&apos;&#x0A;- Original element: &apos;Bucles.Menu.main(String[]).valores&apos;&#x0A;- Renamed element: &apos;valores&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;valores&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Bucles{Menu.java[Menu~main~\[QString;@valores!1868!1907!1878!1884!\[QString;!0!false" name="puntos" references="true" stamp="1677348651928" version="1.0"/>
+</session>

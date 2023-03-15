@@ -1,0 +1,27 @@
+package maniqui;
+
+public class Maniqui {
+	String id;
+	Camisa camisa;
+	Pantalon pantalon;
+	Vestido vestido;
+	
+	public Maniqui(String id, Camisa camisa, Pantalon pantalon, Vestido vestido) {
+		super();
+		this.id = id;
+		this.camisa = camisa;
+		this.pantalon = pantalon;
+		this.vestido = vestido;
+	}
+
+	public Maniqui(String id) {
+		super();
+		this.id = id;
+	}
+	
+	public Maniqui() {
+		super();
+		
+	}
+	
+}

@@ -1,0 +1,44 @@
+package carreraF1;
+
+public class Carrera {
+	Circuito circuito;
+	F1 [] parrillaSalida;
+	double distancia;
+	
+	
+	public Carrera(Circuito circuito, F1[] parrillaSalida, double distancia) {
+		super();
+		
+		this.circuito = circuito;
+		this.parrillaSalida = parrillaSalida;
+		this.distancia = distancia;
+	}
+
+	public Circuito getCircuito() {
+		return circuito;
+	}
+
+	public void setCircuito(Circuito circuito) {
+		this.circuito = circuito;
+	}
+
+	public F1[] getParrillaSalida() {
+		return parrillaSalida;
+	}
+
+	public void setParrillaSalida(F1[] parrillaSalida) {
+		this.parrillaSalida = parrillaSalida;
+	}
+
+	public double getDistancia() {
+		return distancia;
+	}
+
+	public void setDistancia(double distancia) {
+		this.distancia = distancia;
+	}
+
+	public static void iniciarCarrera() {
+		
+	}
+}

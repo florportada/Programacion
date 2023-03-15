@@ -1,0 +1,9 @@
+package maniqui;
+
+public class Pantalon {
+	String talla;
+	double precio;
+	String color;
+	Boton boton;
+	
+}

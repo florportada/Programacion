@@ -1,0 +1,11 @@
+package maniqui;
+
+public class Tienda {
+	
+	public static void main(String[] args) {
+		String nombre = "Zara";
+	
+		maniqui1 = ("1",);
+	}
+
+}

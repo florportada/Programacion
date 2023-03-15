@@ -1,0 +1,40 @@
+package maniqui;
+
+public class Boton {
+	String color;
+	String forma;
+	int tamano;
+	
+	public Boton(String color, String forma, int tamano) {
+		super();
+		this.color = color;
+		this.forma = forma;
+		this.tamano = tamano;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public String getForma() {
+		return forma;
+	}
+
+	public void setForma(String forma) {
+		this.forma = forma;
+	}
+
+	public int getTamano() {
+		return tamano;
+	}
+
+	public void setTamano(int tamano) {
+		this.tamano = tamano;
+	}
+	
+	
+}
