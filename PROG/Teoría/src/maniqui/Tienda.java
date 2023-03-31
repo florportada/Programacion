@@ -5,7 +5,7 @@ public class Tienda {
 
 	public Tienda(String nombre) {
 		super();
-		this.nombre = nombre;
+		this.setNombre(nombre);
 	}
 
 	public static void main(String[] args) {
@@ -77,6 +77,14 @@ public class Tienda {
 		Maniqui[] maniquis = { maniqui1, maniqui2 };
 		return maniquis;
 
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 }
